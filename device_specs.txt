@@ -1,0 +1,7 @@
+Device name	DESKTOP-T1UAV0T
+Processor	AMD Ryzen 5 3500U with Radeon Vega Mobile Gfx     2.10 GHz
+Installed RAM	8.00 GB (5.94 GB usable)
+Device ID	1091A5FA-21F2-495E-9545-A624064FD27B
+Product ID	00330-80000-00000-AA831
+System type	64-bit operating system, x64-based processor
+Pen and touch	No pen or touch input is available for this display
