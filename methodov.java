@@ -1,21 +1,30 @@
-class Adder
+class methodcontainer
 {
-    static int add(int a,int b)
+    public void ok()
     {
-        return a+b;
+        System.out.println("no para");
     }
-
-    static int add(int a,int b,int c)
+    public void ok(int a)
     {
-        return a+b+c;
+        System.out.println(a);
+    }
+    public void ok(int a,int b)
+    {
+        System.out.println(a+b);
+    }
+    public void ok(String a,String b)
+    {
+        System.out.println(a+b);
     }
 }
 
-class methodov
-{
-    public static void main(String [] args)
-    {
-        System.out.println(Adder.add(10,10));
-        System.out.println(Adder.add(10,10,10));
+public class methodov {
+    public static void main(String[] args) {
+       methodcontainer obj= new methodcontainer();
+       obj.ok();
+       obj.ok(10);
+       obj.ok(10,20);
+       obj.ok("aa","aa");
     }
+
 }
